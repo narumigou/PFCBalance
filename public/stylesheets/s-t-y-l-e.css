@@ -1,0 +1,57 @@
+.nyuryoku {
+    position: relative;
+    
+    width: 210px;
+
+}
+
+.child {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: teal;
+}
+
+.nyuryoku input {
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: lightgray;
+}
+
+
+.nyuryoku p {
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    
+}
+
+.rightside {
+    flex-direction: column;
+    width: 250px;
+}
+
+.pfc {
+    flex-direction: column;
+    width: 250px;
+}
+
+
+.record input{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    background-color: darkgray;
+}
+
+.record {
+    margin-top: 25px;
+}
